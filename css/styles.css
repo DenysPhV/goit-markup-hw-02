@@ -1,0 +1,38 @@
+/*:root {
+    text
+    background
+    hover
+} */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #757575;
+}
+
+/*===== BUTTON FILTER ======*/
+.btn-type {
+  cursor: pointer;
+  background-color: #f5f4fa;
+  color: #212121;
+}
+
+.btn-type:hover,
+.btn-type:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+/*===== END BUTTON FILTER ======*/
+
+/* === BUTTON HERO ==== */
+.btn-type-hero {
+  cursor: pointer;
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.btn-type-hero:hover,
+.btn-type-hero:focus {
+  background-color: #188ce8;
+  color: #ffffff;
+}
+/* === END BUTTON HERO ==== */
