@@ -1,15 +1,26 @@
-/*:root {
-    text
-    background
-    hover
-} */
+:root {
+    --main-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+    --accent: #2196F3;
+    --background-dark: #2F303A;
+} 
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--main-font);
   color: #757575;
 }
 
-/*===== BUTTON FILTER ======*/
+.link-nonstyle {
+  text-decoration: none;
+}
+
+.list-nonstyle {
+  list-style: none;
+}
+
+
+/* =========== COMPONENTS =========== */
+
 .btn-type {
   cursor: pointer;
   background-color: #f5f4fa;
@@ -18,21 +29,118 @@ body {
 
 .btn-type:hover,
 .btn-type:focus {
-  background-color: #2196f3;
+  background-color: var(--accent);
   color: #ffffff;
 }
-/*===== END BUTTON FILTER ======*/
 
-/* === BUTTON HERO ==== */
-.btn-type-hero {
+/* =========== END COMPONENTS =========== */
+
+/* =========== HEADER ===========  */
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.logo-decor {
+    color: var(--accent);
+}
+
+.logo-dark {
+  color: #000000;
+}
+
+.logo-light {
+  color: #FFFFFF;
+} 
+
+.navigation-link {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--accent);
+}
+.contact-header {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1,14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.contact-header:hover,
+.contact-header:focus {
+  color: var(--accent);
+}
+
+.active-link {
+  color: var(--accent);
+}
+/* =========== END HEADER ===========  */
+
+/* =========== HERO =========== */
+.btn-hero {
   cursor: pointer;
   background-color: #2196f3;
   color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
 }
 
-.btn-type-hero:hover,
-.btn-type-hero:focus {
+.btn-hero:hover,
+.btn-hero:focus {
   background-color: #188ce8;
   color: #ffffff;
 }
-/* === END BUTTON HERO ==== */
+
+.hero {
+  background-color: var(--background-dark);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #FFFFFF
+}
+
+/* =========== END HERO =========== */
+
+
+
+
+/* ============ FOOTER ============= */
+
+.footer {
+  background-color: var(--background-dark);
+}
+
+.address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.footer-address {
+  color: #ffffff;
+}
+.footer-link {
+  color: rgba(255, 255, 255, 0.6);
+}
