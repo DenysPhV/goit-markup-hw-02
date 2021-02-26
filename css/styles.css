@@ -3,6 +3,7 @@
     --secondary-font: "Raleway", sans-serif;
     --accent: #2196F3;
     --background-dark: #2F303A;
+    --color-conten: #212121;
 } 
 
 body {
@@ -21,17 +22,7 @@ body {
 
 /* =========== COMPONENTS =========== */
 
-.btn-type {
-  cursor: pointer;
-  background-color: #f5f4fa;
-  color: #212121;
-}
 
-.btn-type:hover,
-.btn-type:focus {
-  background-color: var(--accent);
-  color: #ffffff;
-}
 
 /* =========== END COMPONENTS =========== */
 
@@ -62,7 +53,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--color-conten);
 }
 .navigation-link:hover,
 .navigation-link:focus {
@@ -72,7 +63,7 @@ body {
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1,14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
 }
@@ -87,7 +78,7 @@ body {
 }
 /* =========== END HEADER ===========  */
 
-/* =========== HERO =========== */
+/* =========== HERO SECTION =========== */
 .btn-hero {
   cursor: pointer;
   background-color: #2196f3;
@@ -112,16 +103,71 @@ body {
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #FFFFFF
 }
+/* =========== END HERO SECTION =========== */
 
-/* =========== END HERO =========== */
+/* ======== ADVANTAGE SECTION ======== */
+.advantage-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+  color: var(--color-conten);
+}
 
+.advantage-rubric {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/* ======== END ADVANTAGE SECTION ======== */
 
+/* ============ PASSION SECTION ============ */
+.passion-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+  color: var(--color-conten);
+}
+/* ============ END PASSION SECTION ============ */
+
+/* ======== TEAM SECTION ======== */
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+  color: var(--color-conten);
+
+}
+.taem-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+  color: var(--color-conten);
+}
+  
+.team-function {
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+/* text-align: center; */
+letter-spacing: 0.03em;
+}
+
+/* ======== END TEAM SECTION ======== */
 
 
 /* ============ FOOTER ============= */
@@ -144,3 +190,39 @@ body {
 .footer-link {
   color: rgba(255, 255, 255, 0.6);
 }
+
+/* ======= PORFOLIO PAGE =============== */
+/* ======= CHOOSE SECTION ======= */
+.btn-choose {
+  cursor: pointer;
+  background-color: #f5f4fa;
+  color: var(--color-conten);
+}
+
+.btn-choose:hover,
+.btn-choose:focus {
+  background-color: var(--accent);
+  color: #ffffff;
+}
+/* ======= END CHOOSE SECTION ======= */
+
+/* ======= PORFOLIO SECTION ======= */
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color:var(--color-conten);
+
+}
+.portfolio-rubric{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+
+
+  
+
+/* ======= END PORFOLIO SECTION ======= */
