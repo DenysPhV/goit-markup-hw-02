@@ -1,13 +1,19 @@
 :root {
-    --accent: #2196F3;
-    --background-dark: #2F303A;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --accent-primary: #2196f3;
+    --accent-secondary: #188ce8;
+    --background-dark: #2f303a;
+    --light-gray: #f5f4fa;
     --color-conten: #212121;
+    --main-text: #757575;
+    --rgba-link: rgba(255, 255, 255, 0.6);
 } 
 
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  color: #757575;
+  color: var(--main-text);
   letter-spacing: 0.03em;
 }
 
@@ -28,7 +34,7 @@ body {
 
 /* =========== HEADER ===========  */
 .logo {
-  color: #000000;
+  color: var(--black-color);
 
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -36,15 +42,15 @@ body {
   line-height: 1.19;
 }
 .logo-decor {
-    color: var(--accent);
+    color: var(--accent-primary);
 }
 
 .logo-dark {
-  color: #000000;
+  color: var(--black-color);
 }
 
 .logo-light {
-  color: #FFFFFF;
+  color: var(--white-color);
 } 
 
 .navigation-link {
@@ -58,11 +64,11 @@ body {
 
 .navigation-link:hover,
 .navigation-link:focus {
-  color: var(--accent);
+  color: var(--accent-primary);
 }
 
 .contact-header {
-  color: #757575;
+  color: var(--main-text);
 
   font-weight: 500;
   font-size: 14px;
@@ -73,11 +79,11 @@ body {
 
 .contact-header:hover,
 .contact-header:focus {
-  color: var(--accent);
+  color: var(--accent-primary);
 }
 
 .active-link {
-  color: var(--accent);
+  color: var(--accent-primary);
 }
 /* =========== END HEADER ===========  */
 
@@ -87,7 +93,7 @@ body {
 }
 
 .hero-title {
-  color: #FFFFFF;
+  color: var(--white-color);
 
   font-weight: 900;
   font-size: 44px;
@@ -98,8 +104,8 @@ body {
   
 }
 .btn-hero {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--accent-primary);
+  color: var(--white-color);
 
   font-family: inherit;
   font-weight: 700;
@@ -113,8 +119,8 @@ body {
 
 .btn-hero:hover,
 .btn-hero:focus {
-  background-color: #188ce8;
-  color: #ffffff;
+  background-color: var(--accent-secondary);
+  color: var(--white-color);
 }
 
 
@@ -127,6 +133,7 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .advantage-rubric {
@@ -149,6 +156,9 @@ body {
 /* ============ END PASSION SECTION ============ */
 
 /* ======== TEAM SECTION ======== */
+.team {
+  background-color: var(--light-gray);
+}
 .team-title {
   color: var(--color-conten);
 
@@ -187,10 +197,10 @@ body {
 }
 
 .footer-address {
-  color: #ffffff;
+  color: var(--white-color);
 }
 .footer-link {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--rgba-link);
 }
 
 /* ======= PORFOLIO PAGE =============== */
@@ -212,14 +222,14 @@ body {
 
 .btn-choose {
   cursor: pointer;
-  background-color: #f5f4fa;
+  background-color: var(--light-gray);
   color: var(--color-conten);
 }
 
 .btn-choose:hover,
 .btn-choose:focus {
   background-color: var(--accent);
-  color: #ffffff;
+  color: var(--white-color);
 }
   
 
