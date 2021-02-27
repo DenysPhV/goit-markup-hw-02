@@ -106,6 +106,7 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+
   cursor: pointer;
   
 }
@@ -193,7 +194,22 @@ body {
 }
 
 /* ======= PORFOLIO PAGE =============== */
-/* ======= CHOOSE SECTION ======= */
+
+/* ======= PORTFOLIO SECTION ======= */
+.portfolio-title {
+  color:var(--color-conten);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-rubric{
+  font-size: 16px;
+  line-height: 1.88;
+}
+
 .btn-choose {
   cursor: pointer;
   background-color: #f5f4fa;
@@ -205,25 +221,6 @@ body {
   background-color: var(--accent);
   color: #ffffff;
 }
-/* ======= END CHOOSE SECTION ======= */
-
-/* ======= PORFOLIO SECTION ======= */
-.portfolio-title {
-  color:var(--color-conten);
-
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  
-
-}
-.portfolio-rubric{
-  font-size: 16px;
-  line-height: 1.88;
-  }
-
-
   
 
 /* ======= END PORFOLIO SECTION ======= */
